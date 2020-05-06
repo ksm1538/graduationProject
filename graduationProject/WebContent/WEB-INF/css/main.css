@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+
+/*로그인 화면*/
+.log_in_wrap{height:100%;}
+.log_in_con{height:100%;}
+.log_in_con .log_in_img{height:100%; background-image:url("../img/log_in_main.jpg"); background-repeat: no-repeat; background-size:cover; backgroud-position:center; position:absolute; top:0; left:0;}
+.log_in_con .log_in_dim{height:100%; background-color:rgba(0,0,0,0.5); position: absolute; top:0; left:0;}
+.log_in_con .log_in_title{padding-top:170px; margin-bottom:20px; font-size:70px; color:#fff;}
+.log_in_con .log_in_subtitle{margin-bottom:40px; font-size:30px; color:#fff; opacity:0.5; word-break:keep-all;}
+.log_in_con .log_in_line{margin-bottom:80px; width:150px; border:1px solid #fff;}
+.log_in_con .log_in_form_content{padding-top:50px; padding-bottom:50px; border:5px solid rgba(255,255,255,0.5);}
+.log_in_con .id_form{margin-bottom:20px;}
+.log_in_con .pw_form{margin-bottom:20px;}
+.log_in_con .member_function{position:relative; padding:0;}
+.log_in_con .member_function > li{display:inline; list-style:none; padding-left:10px;}
+.log_in_con .member_function > li:not(:last-child):after{content:""; position:absolute; margin-left:8px;  top:6px; width:1px; height:10px; background-color:rgba(255,255,255,0.3);}

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* col - 공통 */
+[class*="col-"] {
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+
+[class*="col-"] img {max-width: 100%;}
+
+.col-center {float: none; margin-left:auto; margin-right: auto;}
+
+.col-0 {width: auto;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-20 {width: 20%;}
+
+.tc {text-align: center;}
+.fr {float: right;}
+.fl {float: left;}
+.fn {float: none;}
+
+.mw-1200 {max-width: 1200px;}
+
+/*===============================================*/
+
+.textbox_style_0{color:#fff; width:200px; height:35px; background:transparent; border-top:none; border-right:none; border-left:none; border-bottom:2px solid rgba(255,255,255,0.5);}
+.textbox_style_0::placeholder{color:rgba(255,255,255,0.7);}
+
+.btn_style_0{color:#fff; font-size:15px; width:200px; height:35px; background:transparent;}
+.btn_style_0:hover{color:#000; background:rgba(255,255,255,0.3);}
+.a_tag:link { text-decoration: none;}
+.a_tag:visited {  text-decoration: none;}
+
+
+
+
+
+
+
+
