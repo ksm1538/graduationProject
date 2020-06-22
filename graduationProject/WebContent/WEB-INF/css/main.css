@@ -40,9 +40,9 @@ html, body {
 
 /*아이디찾기*/
 .search_id_wrap{padding-top:30px;}
-.search_id_wrap .search_id_con{border-bottom:1px solid #31aae2;}
-.search_id_con .search_id_title{ font-size:30px; font-weight:bold;}
-
+.search_id_wrap .search_id_title_con{overflow:hidden; }
+.search_id_title_con .search_id_title{font-size:30px; font-weight:bold;}
+.search_id_title_con .search_id_title:after{content:""; position:absolute; height:1px; width: 200px; left:42%; bottom:-12px; border-bottom:3px solid #31aae2;}
 
 
 
