@@ -35,7 +35,7 @@ html, body {
 .header_member_con .header_user{color:#fff; position:relative; margin-right:30px;}
 .header_member_con .header_user .user_id{font-weight:bold;}
 .header_member_con .header_user:after{content:""; position:absolute; width:1px; height:16px; top:3px; right:-16px; background-color:rgba(255,255,255,0.4); }
-.header_member_con .logout{color:#fff;}
+.header_member_con .logout{color:#fff;} 
 
  
 /*아이디찾기*/
