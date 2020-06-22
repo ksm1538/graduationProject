@@ -38,6 +38,12 @@ html, body {
 .header_member_con .logout{color:#fff;}
 
 
+/*아이디찾기*/
+.search_id_wrap{padding-top:30px;}
+.search_id_wrap .search_id_con{border-bottom:1px solid #31aae2;}
+.search_id_con .search_id_title{ font-size:30px; font-weight:bold;}
+
+
 
 
 
