@@ -39,17 +39,16 @@ html, body {
 
  
 /*아이디찾기*/
-.search_id_wrap{padding-top:30px;}
+.search_id_wrap{padding-top:30px; margin-bottom:80px;}
 .search_id_wrap .search_id_title_con{overflow:hidden; }
 .search_id_title_con .search_id_title{font-size:30px; font-weight:bold;}
-.search_id_title_con .search_id_title:after{content:""; position:absolute; height:1px; width: 200px; left:42%; bottom:-12px; border-bottom:3px solid #31aae2;}
 
 
-
-
-
-
-
+.search_id_form_wrap{margin-bottom:30px;}
+.search_id_form_con .user_name_con, .user_phone_con, .user_number_con{display:flex; flex-wrap:nowrap; justify-content:center; }
+.search_id_form_con .user_name_con, .user_phone_con{margin-bottom:40px;}
+.search_id_form_con .title_size{min-width:130px; font-size:20px; font-weight:bold;}
+ 
 
 
 
