@@ -35,13 +35,21 @@
 
 /*===============================================*/
 
+/*리스트 스타일 없음*/
+ul{padding:0;}
+li{list-style:none;}
+ 
+/*포인트 컬러 */
+.point0{color: #31aae2;}
+.point_bg0{background-color:#31aae2;}
+
 .textbox_style_0{color:#fff; width:200px; height:35px; background:transparent; border-top:none; border-right:none; border-left:none; border-bottom:2px solid rgba(255,255,255,0.5);}
 .textbox_style_0::placeholder{color:rgba(255,255,255,0.7);}
 
 .btn_style_0{color:#fff; font-size:15px; width:200px; height:35px; background:transparent;}
 .btn_style_0:hover{color:#000; background:rgba(255,255,255,0.3);}
-.a_tag:link { text-decoration: none;}
-.a_tag:visited {  text-decoration: none;}
+.a_tag:link {text-decoration: none;}
+.a_tag:visited {text-decoration: none;}
 
 
 

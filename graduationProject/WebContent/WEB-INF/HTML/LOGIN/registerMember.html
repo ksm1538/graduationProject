@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="../../css/common.css">
+<link rel="stylesheet" href="../../css/main.css">
+
+<meta charset="UTF-8">
+<title>용인대 스터디홈페이지 회원가입</title>
+</head>
+<body>
+
+<div class="col-12 log_in_wrap">
+	<div class="col-12 log_in_con">
+		<div class="col-12 log_in_img"></div>
+		<div class="col-12 log_in_dim"></div>
+		
+		<div class="col-12 col-center mw-1200 tc log_in_title_content">
+			<div class="col-12 log_in_title">회원가입</div>
+			<hr class="col-center log_in_line">
+		</div>
+		
+		<div class="col-3 mw-1200 col-center tc log_in_form_content"> <!--log_int_form_content_wrap -->
+				
+				<!--
+				 col - n 몇을 쓸지는 만들어보면서 정하면 될듯  아마 div로 만들어서 아이디랑 text랑 줄바꿈 되서 나올텐데 그러면 display:flex;로 수평배치 하면될듯
+				 <div class="member_wrap">
+					<div class="member_con">
+						<div class="member_id_con">
+							<div class="id_text">아이디</div>
+							<input type=text ~~s>
+						</div>
+						<div class="member_pw_con">
+							<div class="id_text">아이디</div>
+							<input type=text ~~s>
+						</div>
+						등등
+					</div>
+					<div class="member_btn_con">
+						<input type="submit">~~
+					</div>
+				</div> -->
+			 
+			
+
+			<table>
+				<tr>
+					<th style="background-color: #31aae2;  width:100%; float:left; margin-left:2% ">아이디</th>
+					<td>
+						<input type="text" id="id" style="float:left; margin-left:10%">
+					</td>
+					<td style="margin-left:1em">
+						<input type="button" value="중복확인" id="idCheck" style="float:left;font-size:0.7em">
+					</td>
+				</tr>
+				
+				<tr>
+					<th style="background-color: #31aae2;  width:100%; float:left; margin-left:2%">비밀번호</th>
+					<td >
+						<input type="password" id="pw" style="float:left; margin-left:10%">
+					</td>
+				</tr>
+				
+				<tr>
+					<th style="background-color: #31aae2;  width:100%; float:left; margin-left:2%">비밀번호 확인</th>
+					<td>
+						<input type="password" id="pw" style="float:left; margin-left:10%">
+					</td>
+				</tr>
+				
+				<tr>
+					<th style="background-color: #31aae2;  width:100%; float:left; margin-left:2%">비밀번호 힌트</th>
+					<td >
+						<select name="pwHint" style="float:left; margin-left:10%; width:92%">
+						    <option value="pwHint1">자신의 보물 제 1호는?</option>
+						    <option value="pwHint2">태어난 곳은?</option>
+						    <option value="pwHint3">가장 좋아하는 음식은?</option>
+						    <option value="pwHint4">가장 좋아하는 색깔은?</option>
+						</select>
+				</tr>
+				
+				<tr>
+					<th style="background-color: #31aae2;  width:100%; float:left; margin-left:2%">비밀번호 힌트 답</th>
+					<td >
+						<input type="text" id="pwHintAwsr" style="float:left; margin-left:10%">
+					</td>
+				</tr>
+				
+				<tr>
+					<th style="background-color: #31aae2;  width:100%; float:left; margin-left:2%">이름</th>
+					<td >
+						<input type="text" id="nm" style="float:left;margin-left:10% ">
+					</td>
+				</tr>
+				
+				<tr>
+					<th style="background-color: #31aae2; width:100%; float:left; margin-left:2%">성별</th>
+					<td>
+						<input type="radio" name="radio_gender" value="man">남성	
+						<input type="radio" name="radio_gender" value="woman" checked="checked" >여성
+					</td>
+				</tr>
+				
+			</table>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
