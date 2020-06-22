@@ -10,7 +10,7 @@ html, body {
 
 
 /*로그인 화면*/
-.log_in_wrap{height:100%;}
+.log_in_wrap{height:100%;} 
 .log_in_con{height:100%;}
 .log_in_con .log_in_img{height:100%; background-image:url("../img/log_in_main.jpg"); background-repeat: no-repeat; background-size:cover; backgroud-position:center; position:absolute; top:0; left:0;}
 .log_in_con .log_in_dim{height:100%; background-color:rgba(0,0,0,0.5); position: absolute; top:0; left:0;}
@@ -35,14 +35,26 @@ html, body {
 .header_member_con .header_user{color:#fff; position:relative; margin-right:30px;}
 .header_member_con .header_user .user_id{font-weight:bold;}
 .header_member_con .header_user:after{content:""; position:absolute; width:1px; height:16px; top:3px; right:-16px; background-color:rgba(255,255,255,0.4); }
-.header_member_con .logout{color:#fff;}
+.header_member_con .logout{color:#fff;} 
 
  
 /*아이디찾기*/
-.search_id_wrap{padding-top:30px;}
+.search_id_wrap{padding-top:30px; margin-bottom:80px;}
 .search_id_wrap .search_id_title_con{overflow:hidden; }
 .search_id_title_con .search_id_title{font-size:30px; font-weight:bold;}
-.search_id_title_con .search_id_title:after{content:""; position:absolute; height:1px; width: 200px; left:42%; bottom:-12px; border-bottom:3px solid #31aae2;}
+
+
+.search_id_form_wrap{margin-bottom:30px;}
+.search_id_form_con .user_name_con, .user_phone_con, .user_number_con{display:flex; flex-wrap:nowrap; justify-content:center; }
+.search_id_form_con .user_name_con, .user_phone_con{margin-bottom:40px;}
+.search_id_form_con .title_size{min-width:130px; font-size:20px; font-weight:bold;}
+ 
+
+
+
+
+
+
 
 /*비밀번호 찾기*/
 .find_password_wrap{height:100%;}
