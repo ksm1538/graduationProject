@@ -64,7 +64,6 @@ html, body {
 
 
 .search_password_form_wrap{margin-bottom:30px;}
-.search_password_form_con .user_name_con, .user_ID_con, .user_password_hint_con, .user_password_answer_con{display:flex; flex-wrap:nowrap; justify-content:center; }
-.search_password_form_con .user_name_con, .user_ID_con, .user_password_hint_con{margin-bottom:40px;}
-.search_password_form_con .title_size_type2{min-width:180px; font-size:20px; font-weight:bold;}
-.search_password_form_con .textbox_style{outline:none; width:160px; background:transparent; border-top:none; border-right:none; border-left:none; border-bottom:2px solid  #31aae2;}
+.search_password_form_con .user_name_con, .user_id_con, .user_password_hint_con, .user_password_answer_con{display:flex; flex-wrap:nowrap; justify-content:center; }
+.search_password_form_con .user_name_con, .user_id_con, .user_password_hint_con{margin-bottom:40px;}
+.search_password_form_con .title_size_type2{min-width:190px; font-size:20px; font-weight:bold;}
