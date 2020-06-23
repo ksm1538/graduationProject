@@ -63,7 +63,7 @@ li{list-style:none;}
 .circle_btn{cursor:pointer; position:absolute; right:28%; width:50px; height:50px; border-radius:50%; background-color:#31aae2; }
 .circle_btn:after{content:""; position:absolute; height:1px; width:20px; background-color:#fff; right:15px; top:26px; transform: rotate(45deg)}
 .circle_btn:before{content:""; position:absolute; height:1px; width:20px; background-color:#fff; right:15px; top:26px; transform: rotate(135deg)}
-
+ 
 
 
 
