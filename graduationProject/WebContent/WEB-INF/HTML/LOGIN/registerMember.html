@@ -6,42 +6,63 @@
 <link rel="stylesheet" href="../../css/main.css">
 
 <meta charset="UTF-8">
-<title>용인대 스터디홈페이지 회원가입</title>
+<title>회원가입</title>
 </head>
 <body>
 
-<div class="col-12 col-center mw-1200 register_member_wrap">
+<div class="col-12 col-center mw-1200 search_memeber_title_wrap">
 
 	<div class="circle_btn"></div> 
-	<div class="tc register_member_title_con">
-		<div class="register_member_title">회원 가입</div>
+	<div class="tc search_memeber_title_con">
+		<div class="search_memeber_title">회원 가입</div>
 	</div>
 	
 	
 </div>
 
-<div class="col-12 col-center mw-1200 register_memeber_form_wrap">
-	<div class="register_memeber_form_con">
-		<div class="register_memeber_form_con">
+<div class="col-12 col-center mw-1200 search_memeber_form_wrap">
+		<div class="register_member_form_con">
 			
-			<div class="user_id_con">
-				<div class="user_id title_size">아이디</div>
-				<input type="text" id="userId" class="textbox_style_1">
-				<input type="button" value="중복확인" id="checkIdBtn">
+			<div class="user_name search_member_form_con">
+				<div class="user_id title_size type_2">이름</div>
+				<input type="text" id="userNm" class="textbox_style_1">
 			</div>
 			
-			<div class="user_password_con">
-				<div class="user_id title_size">비밀번호</div>
+			<div class="user_identity_num search_member_form_con">
+				<div class="user_id title_size type_2">주민번호</div>
+				<input type="text" id="userNumber" class="textbox_style_1">
+			</div>
+			
+			<div class="user_gender search_member_form_con">
+				<div class="title_size type_2">성별</div>
+				<div class="radio_btn_con"><input type="radio" name="userGenderRadio" value="man" class="radio_btn"><span>남성</span></div>
+				<div class="radio_btn_con"><input type="radio" name="userGenderRadio" value="woman" checked="checked" class="radio_btn"><span>여성</span></div>
+			</div>
+			
+			<div class="user_phone search_member_form_con">
+				<div class="user_id title_size type_2">전화번호</div>
+				<input type="text" id="userPhone" class="textbox_style_1">
+			</div>
+			
+			
+			<div class="user_id search_member_form_con">
+				<div class="title_size type_2">아이디</div>
+				<input type="text" id="userId" class="textbox_style_1">
+				<input type="button" value="중복확인" id="checkIdBtn" class="check_btn">
+			</div>
+			
+			<div class="user_pw search_member_form_con">
+				<div class="user_id title_size type_2">비밀번호</div>
 				<input type="password" id="userPw" class="textbox_style_1">
 			</div>
 			
-			<div class="user_password_confirm_con">
-				<div class="user_id title_size">비밀번호 확인</div>
+			<div class="user_pw_check search_member_form_con">
+				<div class="user_id title_size type_2">비밀번호 확인</div>
 				<input type="password" id="userPwConfirm" class="textbox_style_1">
 			</div>
 			
-			<div class="user_password_hint_con">
-				<div class="user_id title_size">비밀번호 힌트</div>
+			<div class="user_pw_hint search_member_form_con">
+				<div class="user_id title_size type_2">비밀번호 힌트</div>
 				<select name="userPwHint" >
 				    <option value="userPwHint1">자신의 보물 제 1호는?</option>
 				    <option value="userPwHint2">태어난 곳은?</option>
@@ -50,37 +71,16 @@
 				</select>
 			</div>
 			
-			<div class="user_password_answer_con">
-				<div class="user_id title_size">비밀번호 힌트 답</div>
+			<div class="user_pw_ans search_member_form_con">
+				<div class="user_id title_size type_2">비밀번호 힌트 답</div>
 				<input type="text" id="userPwHintAwsr" class="textbox_style_1">
 			</div>
 			
-			<div class="user_name_con">
-				<div class="user_id title_size">이름</div>
-				<input type="text" id="userNm" class="textbox_style_1">
-			</div>
-			
-			<div class="user_number_con">
-				<div class="user_id title_size">주민번호</div>
-				<input type="text" id="userNumber" class="textbox_style_1">
-			</div>
-			
-			<div class="user_phone_con">
-				<div class="user_id title_size">전화번호</div>
-				<input type="text" id="userPhone" class="textbox_style_1">
-			</div>
-			
-			<div class="user_gender_con">
-				<div class="user_id title_size">성별</div>
-				<input type="radio" name="userGenderRadio" value="man">남성	
-				<input type="radio" name="userGenderRadio" value="woman" checked="checked" >여성
-			</div>
-			
-			
-			
-			
+	
+
+	
+				
 		</div>
-	</div>
 </div>
 
 <div class="col-12 col-center mw-1200 register_memeber_btn_wrap">

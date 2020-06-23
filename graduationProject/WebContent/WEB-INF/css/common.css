@@ -52,7 +52,7 @@ li{list-style:none;}
 .textbox_style_1 type_2{width:160px;}
  
 .btn_style_0{color:#fff; font-size:15px; width:200px; height:35px; background:transparent;}
-.btn_style_0:hover{color:#000; background:rgba(255,255,255,0.3);}
+.btn_style_0:hover{color:#000; background-color:#31aae2; color:#fff; /*background:rgba(255,255,255,0.3);*/}
 
 .btn_style_1_con{display:flex; flex-wrap:nowrap; justify-content:center;}
 
