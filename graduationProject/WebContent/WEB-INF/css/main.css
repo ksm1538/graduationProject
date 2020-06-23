@@ -51,6 +51,16 @@ html, body {
 
  
 
+/*회원가입*/
+.register_member_wrap{padding-top:30px; margin-bottom:80px;}
+.register_member_wrap .register_member_title_con{overflow:hidden; }
+.register_member_title_con .register_member_title{font-size:30px; font-weight:bold;}
+							
+
+.register_member_form_wrap{margin-bottom:30px;}
+.register_member_form_con .user_id_con, .user_password_con, .user_password_confirm_con, .user_password_hint_con, .user_password_answer_con, .user_name_con, .user_number_con, .user_phone_con, .user_gender_con{display:flex; flex-wrap:nowrap; justify-content:center; }
+.register_member_form_con .user_id_con, .user_password_con, .user_password_confirm_con, .user_password_hint_con, .user_password_answer_con, .user_name_con, .user_number_con, .user_phone_con, .user_gender_con{margin-bottom:40px;}
+.register_member_form_con .title_size{min-width:130px; font-size:20px; font-weight:bold;}
 
 
 
