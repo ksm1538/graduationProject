@@ -22,7 +22,7 @@ html, body {
 .log_in_con .pw_form{margin-bottom:20px;}
 .log_in_con .member_function{position:relative; padding:0;}
 .log_in_con .member_function > li{display:inline; list-style:none;  padding-left:10px;}
-.log_in_con .member_function > li > a > span{color:#fff; font-size:14px; opacity:0.8;}
+.log_in_con .member_function > li > a > span{color:#fff; font-size:14px; opacity:0.8; cursor:pointer;}
 .log_in_con .member_function > li > a:visited{text-decoration:none; color:#000;}
 .log_in_con .member_function > li:not(:last-child):after{content:""; position:absolute; margin-left:8px;  top:6px; width:1px; height:10px; background-color:rgba(255,255,255,0.3);}
 
@@ -46,23 +46,24 @@ html, body {
 .search_memeber_title_con .search_memeber_title{font-size:30px; font-weight:bold;}
 .search_member_form_con{display:flex; flex-wrap:nowrap; justify-content:center; margin-bottom:40px;}
 .search_member_form_con:last-child{margin-bottom:0}
-
-.user_pw_hint{position:relative;}
-.user_pw_hint .select_style_0{position:absolute; right:30%; bottom:0; width:220px; height:30px;}
-
 .search_memeber_form_wrap{margin-bottom:50px;}
+
 .title_size{min-width:130px; font-size:20px; font-weight:bold;}
 .title_size.type_2{min-width:200px;}
 .title_size.type_3{min-width:190px;}
 .title_size.type_4{min-width:350px;}
 
+.user_pw_hint{position:relative;}
+.user_pw_hint .select_style_0{position:absolute; right:16%; bottom:0; width:220px; height:30px;}
+
+
 /*회원가입*/			
 .register_member_form_con .user_id{position:relative;}
-.register_member_form_con .user_id .btn_style_1{position:absolute; right:23%; bottom:0;}
+.register_member_form_con .user_id .btn_style_1{position:absolute; right:7%; bottom:0;}
 .register_member_form_con .user_gender .radio_btn_con{margin-right:46px;}
 .register_member_form_con .user_gender .radio_btn_con:last-child{margin-right:0;}
 .register_member_form_con .user_gender .radio_btn_con > span{font-weight:bold;}
 
 .user_identity_num{position:relative;}
-.user_identity_num .user_identity_title:after{content:""; position:absolute; width:6px; height:1px; left:58%; bottom:10px; background-color:#000;}
+.user_identity_num .user_identity_title:after{content:""; position:absolute; width:6px; height:1px; left:64%; bottom:10px; background-color:#000;}
 

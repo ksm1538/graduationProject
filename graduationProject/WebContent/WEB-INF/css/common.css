@@ -59,11 +59,7 @@ li{list-style:none;}
 .textbox_style_1.type_2:last-child{margin-right:0;}
 
 
-
-
  
- /*select 스타일*/
- .selected_style_0{}
  
  /*버튼 스타일*/
 .btn_style_0{cursor:pointer; border:1px solid #fff; color:#fff; font-size:15px; width:200px; height:35px; background:transparent;}
@@ -73,15 +69,13 @@ li{list-style:none;}
 .btn_style_1.type_2{width:150px;}
 .btn_style_1:hover{color:#000; border:none; background-color:#31aae2; color:#fff;}
 
-
-
 .btn_style_1_con{display:flex; flex-wrap:nowrap; justify-content:center;}
 
 .a_tag:link {text-decoration: none;}
 .a_tag:visited {text-decoration: none;}
 
 /*닫기버튼*/
-.circle_btn{cursor:pointer; position:absolute; right:28%; width:50px; height:50px; border-radius:50%; background-color:#31aae2; }
+.circle_btn{cursor:pointer; position:absolute; right:10%; width:50px; height:50px; border-radius:50%; background-color:#31aae2; }
 .circle_btn:after{content:""; position:absolute; height:1px; width:20px; background-color:#fff; right:15px; top:26px; transform: rotate(45deg)}
 .circle_btn:before{content:""; position:absolute; height:1px; width:20px; background-color:#fff; right:15px; top:26px; transform: rotate(135deg)}
  
