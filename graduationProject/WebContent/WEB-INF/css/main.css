@@ -54,7 +54,7 @@ html, body {
 .title_size{min-width:130px; font-size:20px; font-weight:bold;}
 .title_size.type_2{min-width:200px;}
 .title_size.type_3{min-width:190px;}
-.title_size.type_4{min-width:355px;}
+.title_size.type_4{min-width:350px;}
 
 /*회원가입*/			
 .register_member_form_con .user_id{position:relative;}
@@ -65,3 +65,4 @@ html, body {
 
 .user_identity_num{position:relative;}
 .user_identity_num .user_identity_title:after{content:""; position:absolute; width:6px; height:1px; left:58%; bottom:10px; background-color:#000;}
+
