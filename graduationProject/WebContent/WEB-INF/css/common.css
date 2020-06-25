@@ -53,6 +53,11 @@ li{list-style:none;}
 
 .textbox_style_1{outline:none; width:150px; background:transparent; border-top:none; border-right:none; border-left:none; border-bottom:2px solid  #31aae2;}
 .textbox_style_1.type_2{width:160px;}
+
+/*주민번호*/
+.textbox_style_1.type_3{width:60px; margin-right:30px;}
+.textbox_style_1.type_3:last-child{margin-right:0;}
+
  
  /*select 스타일*/
  .selected_style_0{}

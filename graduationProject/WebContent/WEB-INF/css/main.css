@@ -48,7 +48,7 @@ html, body {
 .search_member_form_con:last-child{margin-bottom:0}
 
 .user_pw_hint{position:relative;}
-.user_pw_hint .select_style_0{position:absolute; right:23%; bottom:0; width:220px; height:15px;}
+.user_pw_hint .select_style_0{position:absolute; right:30%; bottom:0; width:220px; height:30px;}
 
 .search_memeber_form_wrap{margin-bottom:50px;}
 .title_size{min-width:130px; font-size:20px; font-weight:bold;}
@@ -62,3 +62,6 @@ html, body {
 .register_member_form_con .user_gender .radio_btn_con{margin-right:46px;}
 .register_member_form_con .user_gender .radio_btn_con:last-child{margin-right:0;}
 .register_member_form_con .user_gender .radio_btn_con > span{font-weight:bold;}
+
+.user_identity_num{position:relative;}
+.user_identity_num .user_identity_title:after{content:""; position:absolute; width:6px; height:1px; left:58%; bottom:10px; background-color:#000;}
